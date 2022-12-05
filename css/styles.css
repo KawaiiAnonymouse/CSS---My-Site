@@ -1,29 +1,52 @@
 body{
+    font-family: 'Merriweather', serif;
     margin: 0;
+    text-align: center; /*Centers everything that doesn't have a width margin set*/
 }
 
 h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625em; /* 16px = 100% = 1em */
     margin-top: 0;
-    text-align: center;
+    margin: 0 auto; 
+    /*top right bottom left (auto automatically centers)*/
 }
 
-p{
-    text-align: center;
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .top-container{
     background-color: #dce2fc;
+    position: relative; /*Position relative to where it would have been initially*/
+    padding-top: 100px;
 
 }
 
 .middle-container{
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+    
 }
 
 .bottom-container{
-    background-color: red;
-    height: 200px;
-    width: 200px;
+    
+}
+
+.skills-img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.top-cloud{
+    position: absolute; /*Position relating to the container*/
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
