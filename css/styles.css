@@ -94,3 +94,30 @@ hr{ /*Changes all the hr*/
     left: 300px;
     bottom: 300px;
 }
+
+.btn {
+    background: #9f87d3;
+    background-image: -webkit-linear-gradient(top, #9f87d3, #5a468a);
+    background-image: -moz-linear-gradient(top, #9f87d3, #5a468a);
+    background-image: -ms-linear-gradient(top, #9f87d3, #5a468a);
+    background-image: -o-linear-gradient(top, #9f87d3, #5a468a);
+    background-image: linear-gradient(to bottom, #9f87d3, #5a468a);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #7a64ad;
+    background-image: -webkit-linear-gradient(top, #7a64ad, #412f6e);
+    background-image: -moz-linear-gradient(top, #7a64ad, #412f6e);
+    background-image: -ms-linear-gradient(top, #7a64ad, #412f6e);
+    background-image: -o-linear-gradient(top, #7a64ad, #412f6e);
+    background-image: linear-gradient(to bottom, #7a64ad, #412f6e);
+    text-decoration: none;
+  }
